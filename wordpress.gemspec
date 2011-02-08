@@ -24,13 +24,10 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<capistrano>, [">= 2.5.1"])
-      s.add_runtime_dependency(%q<matthewtodd-wordpress-release>, [">= 0"])
     else
       s.add_dependency(%q<capistrano>, [">= 2.5.1"])
-      s.add_dependency(%q<matthewtodd-wordpress-release>, [">= 0"])
     end
   else
     s.add_dependency(%q<capistrano>, [">= 2.5.1"])
-    s.add_dependency(%q<matthewtodd-wordpress-release>, [">= 0"])
   end
 end
